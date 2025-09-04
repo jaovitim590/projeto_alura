@@ -2,12 +2,6 @@ import express from "express";
 import multer from "multer";
 
 import { listarPosts, postarNovoPost, uploadImagem, atualizarNovoPost} from "../controllers/postsController.js";
-import cors from "cors"
-
-const corsOptions = {
-    origin: "*",
-    optionsSuccesStatus: 200
-}
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads/');
