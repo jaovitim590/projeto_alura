@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "projeto_alura",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,11 +17,7 @@
   },
   "bugs": "",
   "keywords": [],
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
+  "author": "undefined",
   "contributors": [],
   "scripts": {
     "dev": "node --watch --env-file=.env server.js",

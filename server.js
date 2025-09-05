@@ -6,7 +6,7 @@ const app = express();
 
 // habilita CORS globalmente
 app.use(cors({
-  origin: ["http://localhost:3000", "https://SEU-USUARIO.github.io"], // adicione seu GitHub Pages
+  origin: "*", // adicione seu GitHub Pages
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: ["Content-Type"]
 }));
